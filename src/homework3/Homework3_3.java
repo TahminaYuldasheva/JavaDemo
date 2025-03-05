@@ -45,7 +45,7 @@ public class Homework3_3 {
 
         int minCounter = 0;
         for (int i = 0; i < array.length; i++) {
-            //   minCounter++;
+              minCounter++;
             if (array[i] == min) {
                 break;
             }
