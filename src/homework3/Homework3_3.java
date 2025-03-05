@@ -43,7 +43,7 @@ public class Homework3_3 {
         System.out.println("Минимальный элемент в массиве: " + min);
         System.out.println("Максимальный элемент в массиве: " + max);
 
-        int minCounter = 0;
+        int minCounter = -1;
         for (int i = 0; i < array.length; i++) {
               minCounter++;
             if (array[i] == min) {
