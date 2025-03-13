@@ -95,7 +95,10 @@ public class TicTacToe {
         if (array[0][0] == playerField && array[1][1] == playerField && array[2][2] == playerField) {
             return true;
         }
-        return array[0][2] == playerField && array[1][1] == playerField && array[2][0] == playerField;
+        if(array[0][2] == playerField && array[1][1] == playerField && array[2][0] == playerField) {
+            return true;
+        }
+        return false;
     }
 }
 
